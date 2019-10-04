@@ -14,9 +14,7 @@
 	
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!--
     <link href="css/styles.css" rel="stylesheet">
-    -->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,10 +52,10 @@
             <div class="header-content-inner">
 				<h1>NorCal Winter Camp</h1>
 				<h2>January 24-26, 2020</h2>
-                <!--
                 <h3>$165 / person</h3>
-                <p><a class="btn btn-primary btn-lg" href="https://goo.gl/forms/mhjBu3XD1cyotBaw1" role="button">Register Now!</a></p>
-                -->
+				<!--
+				<p><a class="btn btn-primary btn-lg" href="https://goo.gl/forms/mhjBu3XD1cyotBaw1" role="button">Register Now!</a></p>
+				-->
             </div>
         </div>
 	</header>
@@ -65,9 +63,9 @@
 	<div id="blurb" class="container">
         <div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm">
-                <h2>Deeply Spiritual. Intensely Practical!</h2>
+                <h2><mark>Walk</mark> in Him</h2>
 				
-                <p>TOur Christianity is a beautiful balance of learning and living. We all need to grow in the knowledge of our Lord and Savior Jesus Christ. We need to hear Him and learn of Him. And then we need to live what we&#8217;ve learned. We need to walk what we’ve learned.</p>
+                <p>Our Christianity is a beautiful balance of learning and living. We all need to grow in the knowledge of our Lord and Savior Jesus Christ. We need to hear Him and learn of Him. And then we need to live what we&#8217;ve learned. We need to walk what we’ve learned.</p>
                 
                 <p>Paul puts it this way in Colossians 2:6 &ldquo;As you therefore have received Christ Jesus the Lord, so walk in Him.&rdquo;</p>
 				

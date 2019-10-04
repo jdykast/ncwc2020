@@ -1,0 +1,390 @@
+/*
+ * NorCal Winter Camp 2019
+ * styles.css
+ *
+*/
+
+/*
+abdffb
+a3c9e3
+597b9e
+*/
+
+/*=======================================================
+	Global
+=======================================================*/
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+
+/*=======================================================
+	Header
+=======================================================*/
+header {
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center bottom;
+	background-image: url('../img/header-bg.jpg'), linear-gradient(#abdffb, #a3c9e3, #597b9e);
+	background-color: #fff;
+	text-align: center;
+	min-height: 100%;
+}
+
+header .header-content {	
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+header .header-content .header-content-inner h1 {
+	background: url('../img/logo-shadowed.png') no-repeat;
+	background-position: center;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: -9999px;
+	text-transform: uppercase;
+
+	background-size: 231px;
+
+	/*
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center bottom;
+	*/
+
+	/* height set in breakpoints */
+}
+
+header .header-content .header-content-inner h2 {
+	/* font-size set in media queries */
+	color: #fff;
+	font-weight: 700;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	text-shadow: 0 0 16px rgba(17, 32, 61, .8);
+}
+
+header .header-content .header-content-inner h3 {
+	color: #fff;
+	font-size: 2.25rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	text-shadow: 0 0 16px rgba(17, 32, 61, .8);
+}
+
+header .header-content .header-content-inner p a {
+	font-weight: 500;
+	text-shadow: 0 0 16px rgba(17, 32, 61, .8);
+	/* Font size and padding set in media queries */
+}
+
+/*========================
+	Media Queries -
+	Header
+=========================*/
+/* --- [<576] --- */
+@media (max-width: 575px) {
+	header .header-content .header-content-inner h1 {
+		height: 200px;
+
+		background-size: 180px;
+	}
+
+	header .header-content .header-content-inner h2 {
+		font-size: 1.75rem;
+	}
+
+	header .header-content .header-content-inner h3 {
+		font-size: 1.5rem;
+	}
+
+	header .header-content .header-content-inner p a {
+		font-size: 1.75rem;
+		padding: .5rem 2rem;
+	}
+}
+
+/* --- [>576] --- */
+@media (min-width: 576px) {
+	header .header-content .header-content-inner h1 {
+		height: 250px;
+
+		background-size: 231px;
+	}
+
+	header .header-content .header-content-inner h2 {
+		font-size: 2rem;
+	}
+
+	header .header-content .header-content-inner h3 {
+		font-size: 1.75rem;
+	}
+
+	header .header-content .header-content-inner p a {
+		font-size: 1.75rem;
+		padding: .5rem 4rem;
+	}
+}
+
+
+/*=======================================================
+	Nav
+=======================================================*/
+nav {
+	background-color: rgba(255, 255, 255, .9);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+
+/*=======================================================
+	Blurb
+=======================================================*/
+#blurb {
+	margin-top: 3rem;
+}
+
+#blurb h2 {
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#blurb h2 mark {
+	background-color: #fff200;
+}
+
+
+/*=======================================================
+	Details
+=======================================================*/
+#details{
+	border-top: 1px solid #eee;
+	margin-top: 3rem;
+	padding-top: 4rem;
+}
+
+.profile-pic a {
+	color: #fff;
+	border-bottom: 2px solid rgba(255, 255, 255, .4)
+}
+
+.profile-pic a:hover {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(255, 255, 255, .8)
+}
+
+#details h3, #details p {
+	margin-bottom: 0;
+}
+
+#info-dates {
+	background: #fff url('../img/icon-calendar.svg') no-repeat left top;
+}
+
+#info-cost {
+	background: #fff url('../img/icon-usd.svg') no-repeat left top;
+}
+
+#info-location {
+	background: #fff url('../img/icon-pin.svg') no-repeat left top;
+}
+
+#info-register {
+	background: #fff url('../img/icon-create.svg') no-repeat left top;
+}
+
+/*========================
+	Media Queries -
+	Details
+=========================*/
+/* --- [ <576 ] --- */
+@media (max-width: 575px) {
+	#details h2 {
+		text-align: center;
+		font-weight: 700;
+		margin-bottom: 2rem;
+	}
+
+	.profile-pic {
+		display: inline-block;
+		width: 100%;
+		height: 300px;
+		position: relative;
+		margin-bottom: 2rem;
+		border-radius: .3rem;
+	}
+
+	#speaker {
+		background: #fff url('../img/rory.jpg') no-repeat center 35%;	
+	}
+
+	#worship {
+		background: #fff url('../img/revo.jpg') no-repeat center 53%;
+	}
+
+	.profile-label {
+		bottom: 0;
+		position: absolute;
+		padding: .8rem .5rem;
+		background: rgba(0, 0, 0, .6);
+		color: #fff;
+		width: 100%;
+		border-bottom-right-radius: .3rem;
+		border-bottom-left-radius: .3rem;
+	}
+
+	.info-block {
+		width: 100%;
+		margin-bottom: 1em;
+		padding-left: 70px;
+	}
+
+	#info-register {
+		display: none;
+	}
+
+	#details .btn {
+		margin-top: 3rem;
+		padding: .5rem 1rem;
+	}
+
+	#details .btn h2 {
+		margin-bottom: 0;
+	}
+}
+
+/* --- [ >576 ] --- */
+@media (min-width: 576px) {
+	#details div > h2 {
+		display: none;
+	}
+
+	.profile-pic {
+		display: inline-block;
+		width: 250px;
+		height: 250px;
+		position: relative;
+		overflow: hidden;
+		border-radius: 50%;
+	}
+	
+	#speaker {
+		background: #fff url('../img/rory.jpg') no-repeat center 40%;
+		background-size: cover;
+	}
+	
+	#worship {
+		background: #fff url('../img/revo.jpg') no-repeat center 53%;
+		background-size: cover;
+	}
+	
+	.profile-label {
+		text-align: center;
+		margin-top: 67%;
+		padding: .3rem 0 4rem;
+		background: rgba(0, 0, 0, .6);
+		color: #fff;
+	}
+	
+	.info-block {
+		width: 330px;
+		padding-left: 90px;
+		margin-top: 3rem;
+		min-height: 4.2rem;
+	}
+
+	#info-dates, #info-cost, #info-location, #info-register {
+		background-size: 4rem;
+	}
+
+	#info-register {
+		display: block;
+	}
+
+	#details .btn {
+		margin-top: 3rem;
+		padding: .5rem 4rem;
+	}
+}
+
+/* --- Step 2 (>768) --- */
+@media (min-width: 768px) {
+	.profile-pic {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+
+/*=======================================================
+	Resources
+=======================================================*/
+#resources {
+	border-top: 1px solid #eee;
+	margin-top: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+#resources h2 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+
+/*=======================================================
+	Dodgeball (and banner)
+=======================================================*/
+#dodgeball-banner {
+	background: #fff url('../img/dodgeball-banner.png') no-repeat center 10%;
+	background-size: cover;
+	min-height: 342px;
+	margin-bottom: 4rem;
+}
+
+#dodgeball h2 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+/*=======================================================
+	Footer
+=======================================================*/
+footer {
+	background-color: #212529;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: .8rem;
+	margin-top: 4rem;
+	padding: 3rem 0 1rem;
+}
+
+footer a {
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #fff;
+}
