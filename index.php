@@ -71,7 +71,10 @@
 				
                 <p>This year we want camp to be a time of equipping our students to walk out their Christianity in practical ways. We want to help each student see what it means to receive Jesus and then walk in Him. We want each student to see that this calling is for them!</p>
                 
-                <p>So join us for a weekend of powerful Bible teaching, passionate worship, and meaningful fellowship. Join us for a weekend set apart to God!</p>
+				<p>So join us for a weekend of powerful Bible teaching, passionate worship, and meaningful fellowship. Join us for a weekend set apart to God!</p>
+				
+				<h2>More to come...</h2>
+				<p>More information regarding our speaker, worship team, and more is coming soon!</p>
             </div>
         </div>
 	</div>
