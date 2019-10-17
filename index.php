@@ -40,7 +40,7 @@
 					<a class="nav-link" href="#resources">Resources</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://goo.gl/forms/mhjBu3XD1cyotBaw1">Register</a>
+					<a class="nav-link" href="https://forms.gle/S7WV3XeNyvJMhkBu9">Register</a>
 				</li>
 			</ul>
 		</div>
@@ -53,9 +53,7 @@
 				<h1>NorCal Winter Camp</h1>
 				<h2>January 24-26, 2020</h2>
                 <h3>$165 / person</h3>
-				<!--
-				<p><a class="btn btn-primary btn-lg" href="https://goo.gl/forms/mhjBu3XD1cyotBaw1" role="button">Register Now!</a></p>
-				-->
+				<p><a class="btn btn-primary btn-lg" href="https://forms.gle/S7WV3XeNyvJMhkBu9" role="button">Register Now!</a></p>
             </div>
         </div>
 	</header>
@@ -63,7 +61,7 @@
 	<div id="blurb" class="container">
         <div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm">
-                <h2><mark>Walk</mark> in Him</h2>
+                <h2><span>Walk</span> in Him</h2>
 				
                 <p>Our Christianity is a beautiful balance of learning and living. We all need to grow in the knowledge of our Lord and Savior Jesus Christ. We need to hear Him and learn of Him. And then we need to live what we&#8217;ve learned. We need to walk what we’ve learned.</p>
                 
@@ -72,28 +70,24 @@
                 <p>This year we want camp to be a time of equipping our students to walk out their Christianity in practical ways. We want to help each student see what it means to receive Jesus and then walk in Him. We want each student to see that this calling is for them!</p>
                 
 				<p>So join us for a weekend of powerful Bible teaching, passionate worship, and meaningful fellowship. Join us for a weekend set apart to God!</p>
-				
-				<h2>More to come...</h2>
-				<p>More information regarding our speaker, worship team, and more is coming soon!</p>
             </div>
         </div>
 	</div>
 	
-    <!--
     <div id="details" class="container">
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm d-sm-flex justify-content-between">
-				<h2>Details</h2>
+				<h2>Details</h2>	
 				<div id="speaker" class="profile-pic">
 					<div class="profile-label">
 						<h3>Speaker</h3>
-						<p><a href="https://www.calvarycrookcounty.com">Rory Rodgers</a></p>
+						<p><a href="https://twitter.com/pastorjoshblev">Josh Blevins</a></p>
 					</div>
 				</div>
 				<div id="worship" class="profile-pic">
 					<div class="profile-label">
 						<h3>Worship</h3>
-						<p><a href="https://www.instagram.com/revocollective/">Revo Collective</a></p>
+						<p><a href="http://theascentworship.com">The Ascent</a></p>
 					</div>
 				</div>
 			</div>
@@ -101,37 +95,38 @@
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm d-sm-flex justify-content-between">
 				<div id="info-dates" class="info-block">
-					<h3>Dates:</h3>
-					<p>January 25-27, 2019</p>
+					<h3><span>Dates:</span></h3>
+					<p>January 24-26, 2020</p>
 				</div>
 				<div id="info-cost" class="info-block">
-					<h3>Cost:</h3>
-					<p>$157 per person</p>
+					<h3><span>Cost:</span></h3>
+					<p>$165 per person</p>
 				</div>
 			</div>
 		</div>
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm d-sm-flex justify-content-between">	
 				<div id="info-location" class="info-block">
-					<h3>Location:</h3>
+					<h3><span>Location:</span></h3>
 					<p><a href="https://woodleaf.younglife.org/">Woodleaf Camp</a></p>
 				</div>
 				<div id="info-register" class="info-block">
-					<h3>Register:</h3>
-					<p>Use our Google Form to <a href="https://goo.gl/forms/mhjBu3XD1cyotBaw1">register your church</a>!</p>
+					<h3><span>Register:</span></h3>
+					<p>Use our Google Form to <a href="https://forms.gle/S7WV3XeNyvJMhkBu9">register your church</a>!</p>
 				</div>
 			</div>
 		</div>
 		<div class="row d-flex justify-content-center">
 			<div class="col-8 d-flex justify-content-center">
 				<div>
-					<a class="btn btn-primary btn-lg" href="https://goo.gl/forms/mhjBu3XD1cyotBaw1" role="button">Want to bring your students?
+					<a class="btn btn-primary btn-lg" href="https://forms.gle/S7WV3XeNyvJMhkBu9" role="button">Want to bring your students?
 					<h2>Register Now!</h2></a>
 				</div>
 			</div>
 		</div>
 	</div>
 	
+	<!--
 	<div id="resources" class="container">
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm ">
