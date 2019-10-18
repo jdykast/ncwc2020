@@ -396,6 +396,20 @@ nav {
 	margin-bottom: 2rem;
 }
 
+/*========================
+	Media Queries -
+	Dodgeball
+=========================*/
+/* --- [ <576 ] --- */
+@media (max-width: 575px) {
+	#dodgeball-banner {
+		background: #fff url('../img/dodgeball-bg.jpg') no-repeat 73%;
+		background-size: cover;
+		min-height: 342px;
+		margin-bottom: 4rem;
+	}	
+}
+
 /*=======================================================
 	Footer
 =======================================================*/
