@@ -132,10 +132,8 @@
 				<h2>Resources</h2>
 				<h4>Youth Leader To-do list</h4>
 				<p><a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/to-do-list.pdf">This is a must have!</a> It has important reminders about communication deadlines and requirements. Make sure to grab a copy and keep it close to your heart!</p>
-				<!--
 				<h4>Flyers</h4>
-				<p>You&#8217;re welcome to create material for your youth group but we also have a half-sheet flyer (<a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/flyer.pdf">with info</a> and <a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/flyer-blank.pdf">blank</a>) available for download.</p>
-				-->
+				<p>You&#8217;re welcome to create material for your youth group but we also have a half-sheet flyer (<a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/ncwc2020-flyer.pdf">with info</a> and <a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/ncwc2020-flyer-no-text.pdf">blank</a>) available for download.</p>
 				<h4>Release Form</h4>
 				<p>Every student under 18 will need a release form. We have a <a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/generic-release-form.pdf">generic form available</a> or you can use your own. Additionally, Woodleaf requires a release form. Their form can be found <a href="http://s3cdn.crossroadslive.com.s3.amazonaws.com/wintercamp/woodleaf-release-form.pdf">here</a>. Remember, both of these forms are required.</p>
 				<h4>Map to Woodleaf</h4>
