@@ -51,13 +51,14 @@
         <div id="header" class="header-content">
             <div class="header-content-inner">
 				<h1>NorCal Winter Camp</h1>
+				<!--
 				<h2>January 24-26, 2020</h2>
-                <h3>$165 / person</h3>
-				<p><a class="btn btn-primary btn-lg" href="https://forms.gle/S7WV3XeNyvJMhkBu9" role="button">Register Now!</a></p>
+				-->
             </div>
         </div>
 	</header>
 	
+	<!--
 	<div id="blurb" class="container">
         <div class="row d-flex justify-content-center">
 			<div class="col-lg-8 col-md col-sm">
@@ -159,7 +160,8 @@
 			</div>
 		</div>
 	</div>
-	
+	-->
+
 	<footer>
         <div class="container text-center">
             <p>NorCal Winter Camp is being hosted by <a href="http://crossroadslive.com">Crossroads Church</a>.<br />

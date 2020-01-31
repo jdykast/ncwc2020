@@ -417,7 +417,9 @@ footer {
 	background-color: #212529;
 	color: rgba(255, 255, 255, 0.5);
 	font-size: .8rem;
+	/* - commented out after camp when other content was commented out
 	margin-top: 4rem;
+	*/
 	padding: 3rem 0 1rem;
 }
 
